@@ -9,7 +9,7 @@ async function getData ()
 {
     try {
         let myData = await fetch(
-            `http://api.aladhan.com/v1/timingsByCity?country=EG&city=${city}`
+            `https://api.aladhan.com/v1/timingsByCity?country=EG&city=${city}`
         );
         let response = await myData.json();
         let result = response;
