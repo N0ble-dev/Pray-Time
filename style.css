@@ -52,7 +52,7 @@ header .container h1{
 }
 @media (max-width: 767px) {
     header .container h1{
-        font-size: 65px;
+        font-size: 58px;
 }}
 
 header .container h3{
