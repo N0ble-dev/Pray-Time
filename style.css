@@ -51,8 +51,11 @@ header .container h1{
     font-size: 80px;
 }
 @media (max-width: 767px) {
+    header .container{
+        padding: 40px
+}
     header .container h1{
-        font-size: 58px;
+        font-size: 55px;
 }}
 
 header .container h3{
