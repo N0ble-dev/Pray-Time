@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'El Messiri', sans-serif;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body{
+background: linear-gradient(160deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.8939950980392157) 44%, rgba(61,30,101,1) 100%);
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+@media (min-width: 767px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+header .container{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: flex-end;
+}
+header .container h1{
+    font-size: 80px;
+}
+@media (max-width: 767px) {
+    header .container h1{
+        font-size: 65px;
+}}
+
+header .container h3{
+    margin-bottom: 10px;
+}
+
+hr{
+width: 100%;
+}
+section .container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section .cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+@media (max-width: 992px) {
+    section .cards{
+        gap: 20px;
+    }
+}
+.card{
+width: 120px;
+border-radius: 10px;
+}
+.card h2{
+    text-align: center;
+    width: 100%;
+color: white;
+background: linear-gradient(160deg, rgb(95 85 255) 0%, rgb(60 60 60 / 89%) 100%);
+border-radius: 7px 7px 0 0;
+
+}
+.card h3{
+    font-size: 28px;
+    padding: 45px 15px;
+    text-align: center;
+    width: 100%;
+color: black;
+background-color: white;
+border-radius: 0 0 7px 7px;
+
+}
+.select{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+select{
+background: none;
+color: white;
+padding: 3px 15px;
+border-radius: 17px;
+cursor: pointer;
+font-size: 16px;
+margin-bottom: 45px;
+}
+select:focus-visible{
+outline: none;
+}
+option{
+color: rgb(22, 22, 89);
+}
+
+
+
